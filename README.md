@@ -1,22 +1,25 @@
 # **Burp Suite Guide for Cybersecurity Professionals**
 
-## Overview
+## **Table of Contents**
+1. [Overview](#overview)
+2. [Intercepting HTTP/S Traffic](#1-intercepting-https-traffic)
+3. [Manipulating Requests with Repeater](#2-manipulating-requests-with-repeater)
+4. [Website Vulnerability Scanning](#3-website-vulnerability-scanning)
+5. [Live Auditing and Automation](#4-live-auditing-and-automation)
+6. [Project Management in Burp Suite](#5-project-management-in-burp-suite)
+7. [Working with WebSockets](#6-working-with-websockets)
+8. [Security Best Practices and Standards](#7-security-best-practices-and-standards)
+9. [Conclusion](#conclusion)
+10. [Resources](#additional-resources)
+
+---
+
+## **Overview**
 This guide offers a structured approach to using **Burp Suite** as a comprehensive tool for web application security testing. The focus is on **HTTP/S traffic interception**, **vulnerability scanning**, and **advanced techniques** like automation, **replay attacks**, and **live audits**. It emphasizes security best practices and aligns with industry standards.
 
 ---
 
-## Table of Contents
-1. [Intercepting HTTP/S Traffic](#intercepting-http-s-traffic)
-2. [Manipulating Requests with Repeater](#manipulating-requests-with-repeater)
-3. [Website Vulnerability Scanning](#website-vulnerability-scanning)
-4. [Live Auditing and Automation](#live-auditing-and-automation)
-5. [Project Management in Burp Suite](#project-management-in-burp-suite)
-6. [Working with WebSockets](#working-with-websockets)
-7. [Security Best Practices and Standards](#security-best-practices-and-standards)
-
----
-
-## 1. Intercepting HTTP/S Traffic
+## 1. **Intercepting HTTP/S Traffic**
 
 **Objective:** Gain visibility into and control over HTTP/S traffic between the client and server.
 
@@ -33,7 +36,7 @@ This guide offers a structured approach to using **Burp Suite** as a comprehensi
 
 ---
 
-## 2. Manipulating Requests with Repeater
+## 2. **Manipulating Requests with Repeater**
 
 **Objective:** Modify and resend HTTP requests to observe how the server reacts to changes in parameters, headers, and payloads.
 
@@ -50,7 +53,7 @@ This guide offers a structured approach to using **Burp Suite** as a comprehensi
 
 ---
 
-## 3. Website Vulnerability Scanning
+## 3. **Website Vulnerability Scanning**
 
 **Objective:** Conduct a thorough security scan of a website to identify vulnerabilities such as **Insecure Deserialization**, **Cross-Site Scripting (XSS)**, or **SQL Injection**.
 
@@ -67,7 +70,7 @@ This guide offers a structured approach to using **Burp Suite** as a comprehensi
 
 ---
 
-## 4. Live Auditing and Automation
+## 4. **Live Auditing and Automation**
 
 **Objective:** Automate security testing tasks and perform continuous, real-time security audits.
 
@@ -84,7 +87,7 @@ This guide offers a structured approach to using **Burp Suite** as a comprehensi
 
 ---
 
-## 5. Project Management in Burp Suite
+## 5. **Project Management in Burp Suite**
 
 **Objective:** Organize your security tests into projects, enabling efficient management and scalability.
 
@@ -98,7 +101,7 @@ This guide offers a structured approach to using **Burp Suite** as a comprehensi
 
 ---
 
-## 6. Working with WebSockets
+## 6. **Working with WebSockets**
 
 **Objective:** Intercept, modify, and test WebSocket communications between the client and server.
 
@@ -113,7 +116,7 @@ This guide offers a structured approach to using **Burp Suite** as a comprehensi
 
 ---
 
-## 7. Security Best Practices and Standards
+## 7. **Security Best Practices and Standards**
 
 **Objective:** Ensure that your use of Burp Suite aligns with established security frameworks and ethical testing standards.
 
@@ -130,15 +133,12 @@ This guide offers a structured approach to using **Burp Suite** as a comprehensi
 
 ---
 
-## Conclusion
-
+## **Conclusion**
 This guide highlights Burp Suite’s extensive capabilities for web application security testing. It emphasizes best practices, advanced features, and security standards that align with modern frameworks like OWASP and ISO 27001. 
-
-For more in-depth learning, consider exploring the additional resources below.
 
 ---
 
-## Additional Resources
-- **OWASP**: [OWASP Top 10 Vulnerabilities](https://owasp.org/www-project-top-ten/)
-- **NIST**: [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- **PortSwigger**: [Burp Suite Documentation](https://portswigger.net/burp/documentation)
+## **Resources**
+- [OWASP Top 10 Vulnerabilities](https://owasp.org/www-project-top-ten/)
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [Burp Suite Documentation](https://portswigger.net/burp/documentation)
